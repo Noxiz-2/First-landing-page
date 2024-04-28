@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <title>Landing page</title>
     <link href="style.css" rel="stylesheet">
+        <style>
+        /* Hide underline and color for all links */
+        a {
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit color from parent element */
+        }
+    </style>
 </head>
 <body>    
     
 <div class="container">
             <!-- Logo + link at the top-->
-   
-             <div>Header Logo</div>
-              <div>About</div>
-              <div>Contact us</div>
-              <div>Join us</div>  
+        <div class="mini-container"> 
 
+             <div class="Logo">Header Logo</div>
 
+            <div class="about-us">
+              <a href="#"> <div>About</div> </a>
+              <a href="#"> <div>Contact us</div> </a>
+              <a href="#"> <div>Join us</div>  </a>
+            
+            </div>    
+        </div>   
+            
              <!--Big title + desc = button + image-->
+        <div class="mini-container-two">
               <h1>My dog is awesome</h1>
               <p> You would not even believe my dog. But he would!</p>
               <button> Sign up</button>  
-              <img src="/image/dog.png" alt="dog" class="dpg-image">
+        </div>
+              <img src="image/dog.png" alt="dog" class="dog-image">
 </div>
 
 

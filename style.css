@@ -1,0 +1,49 @@
+/* this selects the whole body structure */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* This is the header*/
+.container {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+    padding: 50px;
+}
+
+/* Header logo + about + contact us + join us*/
+.mini-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* header logo */
+.Logo {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/* About + contact us + join us */
+
+.about-us {
+    display: flex;
+    gap: 20px;
+}
+
+/*Title + text + button */
+.mini-container-two {
+    margin: 50px -50px 50px 200px;
+}
+
+/* Dog image :) */
+.dog-image {
+    width: 400px;
+    height: 200px;
+    margin: -200px 0px 50px 700px;
+}
+

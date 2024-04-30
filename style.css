@@ -1,3 +1,6 @@
+/* #region header */
+
+
 /* this selects the whole body structure */
 body {
     font-family: 'Roboto', sans-serif;
@@ -40,6 +43,25 @@ body {
     margin: 50px -50px 50px 200px;
 }
 
+/* title*/
+.big-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/* button*/
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 30px 10px 30px;
+}
+
 /* Dog image :) */
 .dog-image {
     width: 400px;
@@ -47,3 +69,72 @@ body {
     margin: -200px 0px 50px 700px;
 }
 
+/* #endregion */
+
+
+
+
+
+/*#region second part */
+
+/* Information part + 4 images (container) */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* DIg */
+
+.dig {
+    border: #3882F6 5px solid;
+    border-radius: 9px;
+    width: 200px;
+    height: 200px;
+}
+
+/* the 4 images */
+
+.four-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* the image with the text alone ! */
+
+.image-wrapper {
+    text-align: center;
+}
+
+/* Some information about my dig */
+
+.info-title {
+    text-align: center;
+    margin: 60px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/*#endregion */
+
+
+/* quote container */
+
+.woofy-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* quote text */
+
+.Quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}

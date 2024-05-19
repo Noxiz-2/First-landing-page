@@ -1,2 +1,2 @@
 # First-landing-page
-As the title says, this is my first every landing page!
+First landing-page as the title says!
